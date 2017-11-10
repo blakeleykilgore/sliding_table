@@ -11,3 +11,15 @@ td {
   min-width: 325px;
   height: 285px;
 }
+div::-webkit-scrollbar {
+    -webkit-appearance: none;
+    height: 20px;
+}
+div::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: orange;
+    box-shadow: 0px 0px 2px #807f7f;
+}
+div::-webkit-scrollbar-track {
+    background-color: #efefef;
+}
