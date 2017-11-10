@@ -1,3 +1,4 @@
+/*Style Table and Table Container*/
 div {
   width: 90%;
   margin: auto;
@@ -10,6 +11,7 @@ td {
   min-width: 310px;
   height: auto;
 }
+/*Add and Style Scrollbar*/
 div::-webkit-scrollbar {
     -webkit-appearance: none;
     height: 20px;
@@ -22,9 +24,11 @@ div::-webkit-scrollbar-track {
     background-color: #d8d8d8;
     border-radius: 10px;
 }
+/*Make Images fit to Table Cell*/
 img {
   width: 100%;
 }
+/*Adjust Table Cell Sizes for Medium and Large Browsers*/
 @media (min-width: 900px) {
   td {
     min-width: 365px;
