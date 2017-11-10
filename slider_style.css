@@ -25,3 +25,13 @@ div::-webkit-scrollbar-track {
 img {
   width: 100%;
 }
+@media (min-width: 900px) {
+  td {
+    min-width: 365px;
+  }
+}
+@media (min-width: 1400px) {
+  td {
+    min-width: 435px;
+  }
+}
