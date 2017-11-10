@@ -17,10 +17,10 @@ div::-webkit-scrollbar {
 div::-webkit-scrollbar-thumb {
     border-radius: 50px;
     background-color: orange;
-    box-shadow: 0px 0px 2px #807f7f;
 }
 div::-webkit-scrollbar-track {
-    background-color: #efefef;
+    background-color: #d8d8d8;
+    border-radius: 10px;
 }
 img {
   width: 100%;
